@@ -1,4 +1,4 @@
-FROM ubuntu:wily-20151019
+FROM ubuntu:trusty-20151208
 MAINTAINER mps299792458@gmail.com
 
 RUN echo 'APT::Install-Recommends 0;' >> /etc/apt/apt.conf.d/01norecommends \
