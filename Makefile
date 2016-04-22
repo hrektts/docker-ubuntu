@@ -1,7 +1,7 @@
 all: build
 
 build:
-	@docker build --tag=${USER}/ubuntu:latest .
+	@docker build --tag=hrektts/ubuntu:latest .
 
 release: build
-	@docker build --tag=${USER}/ubuntu:$(shell cat VERSION) .
+	@docker build --tag=hrektts/ubuntu:$(shell cat VERSION) .
