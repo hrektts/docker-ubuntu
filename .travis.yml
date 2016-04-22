@@ -4,8 +4,8 @@ services:
   - docker
 
 before_install:
+  - docker info
   - docker build -t hrektts/ubuntu .
-  - docker ps -a
 
 script:
   - docker run -it hrektts/ubuntu echo "Hello World"
