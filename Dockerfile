@@ -1,4 +1,4 @@
-FROM ubuntu:xenial-20160914
+FROM ubuntu:xenial-20160923.1
 MAINTAINER mps299792458@gmail.com
 
 RUN echo 'APT::Install-Recommends 0;' >> /etc/apt/apt.conf.d/01norecommends \
