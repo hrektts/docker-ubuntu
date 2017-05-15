@@ -1,6 +1,6 @@
-FROM ubuntu:xenial-20170214
+FROM ubuntu:xenial-20170417.1
 LABEL maintainer "mps299792458@gmail.com" \
-      com.katsutoshihorie.version="16.04.20170214"
+      com.katsutoshihorie.version="16.04.20170417.1"
 
 RUN echo 'APT::Install-Recommends 0;' >> /etc/apt/apt.conf.d/01norecommends \
  && echo 'APT::Install-Suggests 0;' >> /etc/apt/apt.conf.d/01norecommends \
