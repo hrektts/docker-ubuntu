@@ -1,6 +1,6 @@
-FROM ubuntu:xenial-20170915
+FROM ubuntu:xenial-20171006
 LABEL maintainer="mps299792458@gmail.com" \
-      version="16.04.20170915"
+      version="16.04.20171006"
 
 RUN echo 'APT::Install-Recommends 0;' >> /etc/apt/apt.conf.d/01norecommends \
  && echo 'APT::Install-Suggests 0;' >> /etc/apt/apt.conf.d/01norecommends \
